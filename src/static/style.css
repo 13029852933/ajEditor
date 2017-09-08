@@ -1,0 +1,339 @@
+
+        html {
+            font-family: "Hiragino Sans GB", "Microsoft YaHei", "微软雅黑", "宋体", Arial, Verdana, sans-serif;
+            -ms-text-size-adjust: 100%;
+            -webkit-text-size-adjust: 100%;
+            font-size: 62.5%;
+        }
+        
+        body {
+            font-size: 1.4rem;
+        }
+        
+        html,
+        body,
+        div,
+        p {
+            margin: 0;
+            padding: 0;
+            border: 0;
+            vertical-align: baseline;
+            font-weight: normal;
+        }
+        ul {
+            list-style: none;
+        }
+        
+        a {
+            background: transparent;
+        }
+        
+        a:active,
+        a:hover {
+            outline: 0;
+        }
+        
+        img {
+            border: 0;
+        }
+        
+        button,
+        input,
+        optgroup,
+        select,
+        textarea {
+            color: inherit;
+            font: inherit;
+            margin: 0;
+        }
+        
+        button {
+            overflow: visible;
+        }
+        
+        button,
+        select {
+            text-transform: none;
+        }
+        
+        button,
+        html input[type="button"],
+        input[type="reset"],
+        input[type="submit"] {
+            -webkit-appearance: button;
+            cursor: pointer;
+        }
+        
+        button[disabled],
+        html input[disabled] {
+            cursor: default;
+        }
+        
+        button::-moz-focus-inner,
+        input::-moz-focus-inner {
+            border: 0;
+            padding: 0;
+        }
+        
+        input {
+            line-height: normal;
+            outline: none;
+        }
+        
+        * {
+            -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+        }
+        
+        body {
+            /*background: #ededed;*/
+            color: #666666;
+            line-height: 20px;
+            -webkit-touch-callout: none;
+            -webkit-user-select: none;
+        }
+        
+        body.white {
+            background: #ffffff;
+        }
+        
+        html.hairlines div,
+        html.hairlines li,
+        html.hairlines a,
+        html.hairlines i,
+        html.hairlines header {
+            border-width: 0.5px !important;
+        }
+        
+        html .g-image-upload-box .upload-btn {
+            border: 1px dashed #e3e3e3 !important;
+        }
+        
+        a {
+            color: #3278ee;
+            text-decoration: none;
+        }
+        
+        input[type="text"],
+        input[type="password"],
+        input[type="search"],
+        input[type="tel"],
+        textarea {
+            border: none;
+            font-size: 1.4rem;
+            height: 20px;
+            line-height: 20px;
+            padding: 5px;
+            color: #333333;
+            font-family: "Hiragino Sans GB", "Microsoft YaHei", "微软雅黑", "宋体", Arial, Verdana, sans-serif;
+            outline: none;
+            -webkit-border-radius: none;
+            -moz-border-radius: none;
+            border-radius: none;
+        }
+        
+        textarea {
+            outline: none;
+            border: none;
+            resize: none;
+            height: 90px;
+            width: 100%;
+            box-sizing: border-box;
+            -moz-box-sizing: border-box;
+            /* Firefox */
+            -webkit-box-sizing: border-box;
+            /* Safari */
+        }
+        
+        input[type=text]:active,
+        input[type=password]:active,
+        textarea:active,
+        input[type=text]:focus,
+        input[type=password]:focus,
+        textarea:focus {
+            border: none;
+            background: #ffffff;
+            outline: none;
+        }
+        
+        ::-webkit-input-placeholder {
+            -webkit-text-fill-color: #bdbdbd;
+        }
+        
+        ::-moz-placeholder {
+            color: #dddddd;
+        }
+        
+        input:-ms-input-placeholder {
+            color: #dddddd;
+        }
+        
+        textarea:-ms-input-placeholder {
+            color: #dddddd;
+        }
+        
+        .title-tips {
+            font-weight: bold;
+            margin-bottom: 3px;
+        }
+        
+        .publish-article-content {
+            padding: 15px;
+            background: #fff;
+            border: 1px solid #ccc;
+        }
+        
+        .publish-article-content .article-content {
+            height: 200px;
+            border-bottom: 1px solid #ccc;
+        }
+        
+        .publish-article-content .footer-btn {
+            text-align: center;
+            padding-top: 10px;
+        }
+        .wrap {
+            position: relative;
+            width: 100%;
+        }
+        
+        .wrap img {
+            width: 100%;
+        }
+        
+        .wrap span {
+            display: inline-block;
+            width: 20px;
+            height: 20px;
+            position: absolute;
+            top: 0;
+            right: 0;
+        }
+        
+        .publish-button {
+            margin-top: 20px;
+            background: yellow;
+            height: 50px;
+            line-height: 50px;
+        }
+        
+        .publish-button.disabled {
+            background: gray;
+        }
+
+        .editor-icon {
+            margin-left: 20px;
+            /*border: 1px solid #ccc;*/
+        }
+        .editor-icon.active{
+            color: #749cca;
+
+        }
+        .editor-icon:hover {
+            cursor: pointer;
+            color: #749cca;
+        }
+        #editor {
+            padding: 5px 10px;
+            box-sizing: border-box;
+        }
+        #editor, .editor-bar {
+            border: 1px solid #ccc;
+        }
+        .editor-bar {
+            padding: 5px;
+            background: #f1f1f1;
+            border-bottom: none;
+        }
+        #editor img:hover {
+            box-shadow: 0 0 5px #333;
+        }
+        .tool-wrap {
+            /*display: none;*/
+            width: 500px;
+            position: absolute;
+            left: 0;
+            /*transform: translate(-50%,0);*/
+            border: 1px solid #ccc;
+            border-top: 0;
+            box-shadow: 1px 1px 2px #ccc;
+            color: #333;
+            background-color: #fff;
+        }
+        .font-wrap {
+            width: 80px;
+            padding: 5px;
+        }
+        .font-wrap p {
+            color: #aaa;
+            text-align: center;
+            border-bottom: 1px solid #ccc;
+        }
+        .upload-item {
+            padding: 10px 0 ;
+        }
+        .upload-item input{
+            padding: 0;
+            width: 60%;
+        }
+        .upload-item input[type="text"]{
+            border-bottom: 1px solid #ccc;
+
+        }
+        .icon-close {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            cursor: pointer;
+        }
+        #loading {
+            display: none;
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            left: 0;
+            top: 0;
+            background: rgba(123,123,123,0.5);
+            color: #fff;
+            text-align: center;
+            /*line-height: 100%;*/
+
+        }
+        .icon-bar {
+            display: inline-block;
+            position: relative;
+        }
+        .font-color{
+            display: inline-block;
+            width: 16px;height: 16px;
+            border-radius: 100%;
+            margin: 5px;
+            cursor: pointer;
+        }
+        .color-black {
+            background: black;
+        }
+        .color-red {
+            background: red;
+        }
+        .color-blue {
+            background: blue;
+        }
+        .color-yellow {
+            background: yellow;
+        }
+        .color-orange {
+            background: orange;
+        }
+        .color-cyan {
+            background: cyan;
+        }
+        .color-lime {
+            background: lime;
+        }
+        .color-magenta {
+            background: magenta;
+        }
+        .color-green {
+            background: green;
+        }
+
