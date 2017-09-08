@@ -145,15 +145,16 @@ $.fn.extend({
 
 				cache.src = blob;
 				cache.onload = function(){
-					_this.uploadImageHandler({
-						file : file,
-						blob : blob
-					});
+					_this.insertFragment('<div><br><p class="insert" contenteditable="false"><img class="editorImg" data-id="" src=' + blob + ' /></p><br></div>')
+					// _this.uploadImageHandler({
+					// 	file : file,
+					// 	blob : blob
+					// });
 				}
 
 				$(this).val('');
 				$('.image-wrap').hide();
-				$('#loading').show();
+				// $('#loading').show();
 			}
 		})
 
@@ -247,7 +248,7 @@ $.fn.extend({
             // 本地存储为空
             $.ajax({
                 type: 'GET',
-                url: 'http://dcrmwsfbuikhru0.kuaikanmanhua.com/image/qiniu/token'
+                url: '/image/qiniu/token'
             }).done(function(res) {
 
                 console.log(res.data);
