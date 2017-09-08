@@ -14,6 +14,7 @@
 ***
 ## 教程
 使用时只需要给目标元素绑定初始化方法即可
+
 	<div id="editor"></div>
 	<script type="text/javascript">
 		$(function(){
