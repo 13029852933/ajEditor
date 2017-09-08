@@ -5,8 +5,8 @@
 支持 IE10+ 浏览器和目前主流浏览器
 # 使用
 ***
-## start
-` npm install` 安装依赖  
+## 下载
+` npm install` 安装依赖  
 
 ` npm start`   本地运行  
 
